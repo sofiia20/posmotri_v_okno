@@ -58,8 +58,9 @@ ol {
 }
 
 .content__list {
-  overflow: auto;
+  overflow-x: auto;
   height: 298px;
+  width: 399px;
   position: relative;
 }
 
