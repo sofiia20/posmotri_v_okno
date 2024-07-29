@@ -58,7 +58,7 @@ ol {
 }
 
 .content__list {
-  overflow-x: auto;
+  overflow: auto;
   height: 298px;
   width: 399px;
   position: relative;
