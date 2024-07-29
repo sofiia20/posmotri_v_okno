@@ -60,7 +60,7 @@ ol {
 .content__list {
   overflow: auto;
   height: 298px;
-  width: 399px;
+  width: 100%;
   position: relative;
 }
 
