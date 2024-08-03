@@ -40,10 +40,11 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 711px 399px;
+  grid-template-columns: 711px auto;
   gap: 30px;
   align-items: end;
   margin: auto;
+  width: 1140px;
 }
 
 .result {
@@ -214,6 +215,10 @@ ol {
   width: 225px;
   height: 27px;
   color: #fff;
+}
+
+.search-form__textfield:focus {
+  outline: none;
 }
 
 .search-form__pseudo-checkbox {
